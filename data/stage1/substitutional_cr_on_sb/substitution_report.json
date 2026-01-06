@@ -1,0 +1,31 @@
+{
+    "summary": "Systematic Substitutional Cr->Sb Generation",
+    "host": "Sb2Te3 4x4x1 Supercell",
+    "dopant": "Cr (Substituting Sb)",
+    "concentration_multi": "Approx x=0.05 (3 atoms / 96 sites)",
+    "configurations": [
+        {
+            "filename": "Cr_Sb_6c_site_0.xyz",
+            "type": "single",
+            "site_index": 0,
+            "wyckoff": "6c",
+            "multiplicity": 96,
+            "point_group": "3m",
+            "nn_dist": 3.0092814251256987,
+            "nn_summary": "CN=6 range=[3.009-3.180]",
+            "ewald_energy": -4937.362515261575
+        },
+        {
+            "filename": "Cr_Sb_Multi_x0.05.xyz",
+            "type": "multi",
+            "num_dopants": 3,
+            "site_indices": [
+                197,
+                49,
+                184
+            ],
+            "ewald_energy": -4937.362515261575,
+            "note": "Maximin distribution"
+        }
+    ]
+}

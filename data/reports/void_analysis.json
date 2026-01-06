@@ -1,0 +1,152 @@
+{
+    "tetrahedral_voids": [
+        {
+            "void_type": "tetrahedral",
+            "frac_coords": [
+                0.6666666666666667,
+                0.3333333333333333,
+                0.4699007294516056
+            ],
+            "nearest_neighbors": [
+                {
+                    "element": "Te",
+                    "distance": 2.5703605304990376
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.570360530499038
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.570360530499038
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.570360530499041
+                }
+            ]
+        }
+    ],
+    "octahedral_voids": [],
+    "vdw_gaps": [],
+    "other_voids": [
+        {
+            "void_type": "distorted_7",
+            "frac_coords": [
+                0.6666666666666667,
+                0.3333333333333334,
+                0.41800779004134103
+            ],
+            "nearest_neighbors": [
+                {
+                    "element": "Sb",
+                    "distance": 2.583159964748074
+                },
+                {
+                    "element": "Sb",
+                    "distance": 2.583159964748074
+                },
+                {
+                    "element": "Sb",
+                    "distance": 2.583159964748074
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.6754203843938975
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.6754203843938975
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.6754203843938975
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.690735376112233
+                }
+            ]
+        },
+        {
+            "void_type": "distorted_7",
+            "frac_coords": [
+                2.220446049250313e-16,
+                0.0,
+                0.520258707437961
+            ],
+            "nearest_neighbors": [
+                {
+                    "element": "Te",
+                    "distance": 2.667525338003092
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.667525338003092
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.667525338003092
+                },
+                {
+                    "element": "Sb",
+                    "distance": 2.667525338003095
+                },
+                {
+                    "element": "Te",
+                    "distance": 3.357315362676948
+                },
+                {
+                    "element": "Te",
+                    "distance": 3.3573153626769483
+                },
+                {
+                    "element": "Te",
+                    "distance": 3.3573153626769483
+                }
+            ]
+        },
+        {
+            "void_type": "distorted_8",
+            "frac_coords": [
+                0.3333333333333333,
+                0.6666666666666665,
+                0.9730397580486742
+            ],
+            "nearest_neighbors": [
+                {
+                    "element": "Te",
+                    "distance": 2.628412217042505
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.628412217042505
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.628412217042505
+                },
+                {
+                    "element": "Sb",
+                    "distance": 2.7289993867091673
+                },
+                {
+                    "element": "Sb",
+                    "distance": 2.7289993867091673
+                },
+                {
+                    "element": "Sb",
+                    "distance": 2.7289993867091678
+                },
+                {
+                    "element": "Te",
+                    "distance": 2.825625568201918
+                },
+                {
+                    "element": "Sb",
+                    "distance": 2.8416679907087143
+                }
+            ]
+        }
+    ]
+}

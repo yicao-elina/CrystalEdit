@@ -1,0 +1,13 @@
+{
+    "Coincidence_Index": "Sigma 3",
+    "Twin_Plane": "(1 0 -1 1)",
+    "Interface_Energy_Proxy": "Stable (Coherent)",
+    "Physical_Reasoning": "The Sigma 3 coherent twin boundary is energetically favorable in Sb2Te3 because it preserves the local octahedral coordination motif while introducing a mirror plane that can lead to 'Twin-Protected' electronic states.",
+    "Domains": {
+        "Domain_A_atoms": 76,
+        "Domain_B_atoms": 76,
+        "Total_atoms": 151
+    },
+    "Misorientation": "180 degree rotation around plane normal (Reflection)",
+    "Overlap_Removal_Count": 1
+}

@@ -1,0 +1,10 @@
+dopant|concentration|config_type|avg_d_nn|lambda|sigma2|delta_V_poly|ewald_sum|symmetry
+Cr|0.01|dilute|2.897|1.3197|166.02|21.80|-4981.03|3m
+Cr|0.01|clustered|N/A|N/A|N/A|N/A|-5008.17|N/A
+Cr|0.05|multi|N/A|N/A|N/A|N/A|-5018.79|N/A
+V|0.01|dilute|2.897|1.3197|166.02|21.80|-4981.03|3m
+V|0.01|clustered|N/A|N/A|N/A|N/A|-5008.17|N/A
+V|0.05|multi|N/A|N/A|N/A|N/A|-5018.79|N/A
+Mn|0.01|dilute|2.897|1.3197|166.02|21.80|-4981.03|3m
+Mn|0.01|clustered|N/A|N/A|N/A|N/A|-5008.17|N/A
+Mn|0.05|multi|N/A|N/A|N/A|N/A|-5018.79|N/A

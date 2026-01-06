@@ -1,0 +1,33 @@
+{
+    "ionic_radius": 0.65,
+    "optimized_frac_coords": [
+        2.1460696527580858e-16,
+        0.00013430581382958362,
+        0.5401618316238077
+    ],
+    "point_group": "3m",
+    "coordination": {
+        "cn_4_neighbors": [
+            "Sb",
+            "Te",
+            "Te",
+            "Te"
+        ],
+        "distances": [
+            2.035055577075949,
+            2.507206839221607,
+            2.507702928293511,
+            2.5081989192454626
+        ],
+        "average_dist": 2.3895410659591323,
+        "distortion_index_sigma2": 408.3890132430081
+    },
+    "energetics_proxy": {
+        "steric_overlap_factor": 3.1308547339629986,
+        "reasoning": "Steric Factor 3.13. Spacious."
+    },
+    "files": [
+        "Mn_tet_x0.01.xyz",
+        "Mn_tet_x0.05.xyz"
+    ]
+}

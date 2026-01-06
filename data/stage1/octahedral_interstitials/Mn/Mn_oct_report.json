@@ -1,0 +1,26 @@
+{
+    "dopant": "Mn",
+    "configurations": [
+        {
+            "type": "dilute",
+            "file": "Mn_oct_x0.01_dilute.xyz",
+            "ewald": -4981.030969615886,
+            "metrics": {
+                "avg_dist": 2.897455348241659,
+                "lambda": 1.3197157272175943,
+                "sigma2": 166.0222292335452
+            }
+        },
+        {
+            "type": "clustered",
+            "file": "Mn_oct_x0.01_clustered.xyz",
+            "ewald": -5008.171863324033
+        },
+        {
+            "type": "multi",
+            "file": "Mn_oct_x0.05.xyz",
+            "ewald": -5018.785196004925
+        }
+    ],
+    "physical_reasoning": "Octahedral site preferred for Mn if crystal field stabilization dominates (d3 high spin). VdW site minimizes steric strain (delta_V)."
+}

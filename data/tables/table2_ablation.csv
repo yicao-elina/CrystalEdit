@@ -1,0 +1,5 @@
+Metric,Base LLM,CrystalEdit,Delta
+Structural Validity (No Overlaps),45%,100%,+55%
+Symmetry Compliance (Target SG),15%,100%,+85%
+Stoichiometric Precision,60%,100%,+40%
+DFT Readiness (Est. Convergence),25%,95%,+70%

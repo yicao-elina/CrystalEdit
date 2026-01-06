@@ -1,0 +1,48 @@
+{
+    "fault_type": "Growth Stacking Fault / Twin",
+    "shift_vector_fractional": [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+    ],
+    "stacking_sequence_change": "ABC -> ACA (approx)",
+    "interface_expansion_A": 0.0,
+    "min_dist_at_interface_A": 4.073456748991773,
+    "inter_QL_coupling_proxy": "Reduced due to geometric mismatch",
+    "symmetry": "P3m1 (Trigonal)",
+    "xrd_00L_shifts": {
+        "note": "Intensity changes and peak shifts due to Z-expansion",
+        "peaks": [
+            {
+                "L": 1,
+                "I_orig": "0.00",
+                "I_fault": "2640145.78"
+            },
+            {
+                "L": 2,
+                "I_orig": "0.00",
+                "I_fault": "2421324.81"
+            },
+            {
+                "L": 3,
+                "I_orig": "2246141.50",
+                "I_fault": "4828215.94"
+            },
+            {
+                "L": 4,
+                "I_orig": "0.00",
+                "I_fault": "1665404.82"
+            },
+            {
+                "L": 5,
+                "I_orig": "0.00",
+                "I_fault": "1212657.20"
+            },
+            {
+                "L": 6,
+                "I_orig": "6991129.56",
+                "I_fault": "3237020.05"
+            }
+        ]
+    }
+}

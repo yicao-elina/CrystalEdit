@@ -1,0 +1,83 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="white"/>
+<text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">A: Pristine Bulk</text>
+<circle cx="200.0" cy="161.2" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<line x1="164.9" y1="139.8" x2="200.0" y2="161.2" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="164.9" cy="139.8" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<line x1="164.9" y1="139.8" x2="212.9" y2="141.3" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<line x1="164.9" y1="139.8" x2="129.7" y2="120.4" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="212.9" cy="141.3" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<circle cx="129.7" cy="120.4" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<line x1="200.0" y1="200.0" x2="212.9" y2="141.3" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<line x1="116.9" y1="179.1" x2="129.7" y2="120.4" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<line x1="212.9" y1="141.3" x2="260.9" y2="142.8" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="200.0" cy="200.0" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<line x1="212.9" y1="141.3" x2="177.7" y2="121.9" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<line x1="129.7" y1="120.4" x2="177.7" y2="121.9" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="116.9" cy="179.1" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<circle cx="260.9" cy="142.8" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<line x1="200.0" y1="200.0" x2="164.9" y2="178.6" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<line x1="164.9" y1="178.6" x2="116.9" y2="179.1" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="177.7" cy="121.9" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<line x1="164.9" y1="178.6" x2="177.7" y2="121.9" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<line x1="260.9" y1="142.8" x2="225.7" y2="121.4" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="164.9" cy="178.6" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<line x1="225.7" y1="121.4" x2="177.7" y2="121.9" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="225.7" cy="121.4" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<circle cx="212.9" cy="188.6" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<text x="600" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">B: Cr Substitution</text>
+<circle cx="600.0" cy="161.2" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<line x1="564.9" y1="139.8" x2="600.0" y2="161.2" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="564.9" cy="139.8" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<line x1="564.9" y1="139.8" x2="612.9" y2="141.3" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<line x1="564.9" y1="139.8" x2="529.7" y2="120.4" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="612.9" cy="141.3" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<circle cx="529.7" cy="120.4" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<line x1="600.0" y1="200.0" x2="612.9" y2="141.3" stroke="black" stroke-width="2" stroke-dasharray="4,2" stroke-linecap="round" />
+<line x1="516.9" y1="179.1" x2="529.7" y2="120.4" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<line x1="612.9" y1="141.3" x2="660.9" y2="142.8" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="600.0" cy="200.0" r="10" fill="#FF0000" stroke="black" stroke-width="2" />
+<line x1="612.9" y1="141.3" x2="577.7" y2="121.9" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<line x1="529.7" y1="120.4" x2="577.7" y2="121.9" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="516.9" cy="179.1" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<circle cx="660.9" cy="142.8" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<line x1="600.0" y1="200.0" x2="564.9" y2="178.6" stroke="black" stroke-width="2" stroke-dasharray="4,2" stroke-linecap="round" />
+<line x1="564.9" y1="178.6" x2="516.9" y2="179.1" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="577.7" cy="121.9" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<line x1="564.9" y1="178.6" x2="577.7" y2="121.9" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<line x1="660.9" y1="142.8" x2="625.7" y2="121.4" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="564.9" cy="178.6" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<line x1="625.7" y1="121.4" x2="577.7" y2="121.9" stroke="#AAAAAA" stroke-width="2"  stroke-linecap="round" />
+<circle cx="625.7" cy="121.4" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<circle cx="612.9" cy="188.6" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<text x="1000" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">C: Distortion Map</text>
+<circle cx="1000.0" cy="161.2" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<line x1="964.9" y1="139.8" x2="1000.0" y2="161.2" stroke="rgb(255,255,255)" stroke-width="4"  stroke-linecap="round" />
+<circle cx="964.9" cy="139.8" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<line x1="964.9" y1="139.8" x2="1013.5" y2="138.5" stroke="rgb(240,240,255)" stroke-width="4"  stroke-linecap="round" />
+<line x1="964.9" y1="139.8" x2="929.7" y2="120.4" stroke="rgb(255,255,255)" stroke-width="4"  stroke-linecap="round" />
+<circle cx="1013.5" cy="138.5" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<circle cx="929.7" cy="120.4" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<line x1="1000.0" y1="200.0" x2="1013.5" y2="138.5" stroke="rgb(255,14,14)" stroke-width="4"  stroke-linecap="round" />
+<line x1="916.9" y1="179.1" x2="929.7" y2="120.4" stroke="rgb(255,255,255)" stroke-width="4"  stroke-linecap="round" />
+<line x1="1013.5" y1="138.5" x2="1060.9" y2="142.8" stroke="rgb(255,229,229)" stroke-width="4"  stroke-linecap="round" />
+<circle cx="1000.0" cy="200.0" r="10" fill="#FF0000" stroke="black" stroke-width="2" />
+<line x1="1013.5" y1="138.5" x2="977.7" y2="121.9" stroke="rgb(255,229,229)" stroke-width="4"  stroke-linecap="round" />
+<line x1="929.7" y1="120.4" x2="977.7" y2="121.9" stroke="rgb(255,255,255)" stroke-width="4"  stroke-linecap="round" />
+<circle cx="916.9" cy="179.1" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<circle cx="1060.9" cy="142.8" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<line x1="1000.0" y1="200.0" x2="963.1" y2="177.5" stroke="rgb(255,0,0)" stroke-width="4"  stroke-linecap="round" />
+<line x1="963.1" y1="177.5" x2="916.9" y2="179.1" stroke="rgb(255,254,254)" stroke-width="4"  stroke-linecap="round" />
+<circle cx="977.7" cy="121.9" r="8" fill="#002D72" stroke="none" stroke-width="0" />
+<line x1="963.1" y1="177.5" x2="977.7" y2="121.9" stroke="rgb(255,254,254)" stroke-width="4"  stroke-linecap="round" />
+<line x1="1060.9" y1="142.8" x2="1025.7" y2="121.4" stroke="rgb(255,255,255)" stroke-width="4"  stroke-linecap="round" />
+<circle cx="963.1" cy="177.5" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<line x1="1025.7" y1="121.4" x2="977.7" y2="121.9" stroke="rgb(255,255,255)" stroke-width="4"  stroke-linecap="round" />
+<circle cx="1025.7" cy="121.4" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<circle cx="1012.9" cy="188.6" r="8" fill="#CBA052" stroke="none" stroke-width="0" />
+<defs><linearGradient id="grad1" x1="0%" y1="100%" x2="0%" y2="0%"><stop offset="0%" style="stop-color:blue;stop-opacity:1" /><stop offset="50%" style="stop-color:white;stop-opacity:1" /><stop offset="100%" style="stop-color:red;stop-opacity:1" /></linearGradient></defs>
+<rect x="1150" y="100" width="20" height="200" fill="url(#grad1)" stroke="black"/>
+<text x="1180" y="110" font-family="Arial" font-size="12">+5%</text>
+<text x="1180" y="200" font-family="Arial" font-size="12">0%</text>
+<text x="1180" y="300" font-family="Arial" font-size="12">-5%</text>
+</svg>

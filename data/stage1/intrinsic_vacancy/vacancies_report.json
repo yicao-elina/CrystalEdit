@@ -1,0 +1,122 @@
+[
+    {
+        "defect_type": "vacancy_Sb",
+        "removed_atom": {
+            "element": "Sb",
+            "wyckoff": "6c",
+            "frac_coords": [
+                0.0,
+                0.0,
+                0.39579722992763344
+            ],
+            "supercell_index": 0
+        },
+        "new_formula": "Sb95Te144",
+        "symmetry_change": {
+            "initial": "R-3m (Space Group)",
+            "final_point_group": "3m"
+        },
+        "validation": {
+            "I_fid": true,
+            "min_distance": 3.0092814251256987
+        },
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 3.0092814251256987
+            },
+            {
+                "element": "Te",
+                "distance": 3.009281429063832
+            },
+            {
+                "element": "Te",
+                "distance": 3.009281432276767
+            }
+        ]
+    },
+    {
+        "defect_type": "vacancy_Te",
+        "removed_atom": {
+            "element": "Te",
+            "wyckoff": "6c",
+            "frac_coords": [
+                0.0,
+                0.0,
+                0.21745378989335232
+            ],
+            "supercell_index": 6
+        },
+        "new_formula": "Sb96Te143",
+        "symmetry_change": {
+            "initial": "R-3m (Space Group)",
+            "final_point_group": "3m"
+        },
+        "validation": {
+            "I_fid": true,
+            "min_distance": 3.009281425125699
+        },
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 3.009281425125699
+            },
+            {
+                "element": "Sb",
+                "distance": 3.0092814290638326
+            },
+            {
+                "element": "Sb",
+                "distance": 3.0092814322767674
+            }
+        ]
+    },
+    {
+        "defect_type": "vacancy_Te",
+        "removed_atom": {
+            "element": "Te",
+            "wyckoff": "3a",
+            "frac_coords": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "supercell_index": 12
+        },
+        "new_formula": "Sb96Te143",
+        "symmetry_change": {
+            "initial": "R-3m (Space Group)",
+            "final_point_group": "-3m"
+        },
+        "validation": {
+            "I_fid": true,
+            "min_distance": 3.1803398364684163
+        },
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 3.1803398364684163
+            },
+            {
+                "element": "Sb",
+                "distance": 3.1803398401947325
+            },
+            {
+                "element": "Sb",
+                "distance": 3.1803398412084265
+            },
+            {
+                "element": "Sb",
+                "distance": 3.1803398427280154
+            },
+            {
+                "element": "Sb",
+                "distance": 3.180339842728016
+            },
+            {
+                "element": "Sb",
+                "distance": 3.1803398432348557
+            }
+        ]
+    }
+]

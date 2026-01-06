@@ -1,0 +1,12 @@
+{
+    "Sigma": 7,
+    "Target_Angle": 36.87,
+    "Actual_Angle": 38.21321070173817,
+    "Misfit_Strain_Percent": 1.5599734506098228e-14,
+    "Grain_Boundary_Energy_Proxy": "Coordination deficit analysis required",
+    "Physical_Reasoning": "The Sigma 7 tilt boundary (nearest to Sigma 5 in hex) creates a periodic array of dislocations. In Sb2Te3, these structural units may alter local Berry curvature.",
+    "Stoichiometry": {
+        "Sb": 152,
+        "Te": 228
+    }
+}

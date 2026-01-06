@@ -1,0 +1,115 @@
+{
+    "summary": "Systematic Multi-Dopant Interstitial Generation",
+    "base_structure": "Sb2Te3 4x4x1 Supercell",
+    "selected_void": {
+        "id": 2,
+        "original_geometry": "Tetrahedral-Like",
+        "is_vdw": true,
+        "original_frac": [
+            2.220446049250313e-16,
+            0.0,
+            0.520258707437961
+        ]
+    },
+    "dopants": {
+        "Cr": {
+            "ionic_radius": 0.62,
+            "optimized_frac_coords": [
+                2.155932192846783e-16,
+                0.00010806355987231692,
+                0.541033505928951
+            ],
+            "point_group": "3m",
+            "coordination": {
+                "cn_4_neighbors": [
+                    "Sb",
+                    "Te",
+                    "Te",
+                    "Te"
+                ],
+                "distances": [
+                    2.007355992461648,
+                    2.5037240644843215,
+                    2.504123784702128,
+                    2.5045234411248654
+                ],
+                "average_dist": 2.3799318206932405,
+                "distortion_index_sigma2": 393.93577047181776
+            },
+            "energetics_proxy": {
+                "steric_overlap_factor": 3.237670955583303,
+                "reasoning": "Steric Factor 3.24. Spacious."
+            },
+            "files": [
+                "Cr_tet_x0.01.xyz",
+                "Cr_tet_x0.05.xyz"
+            ]
+        },
+        "V": {
+            "ionic_radius": 0.64,
+            "optimized_frac_coords": [
+                2.1485482360694708e-16,
+                0.00013288889402292343,
+                0.5405197166081508
+            ],
+            "point_group": "3m",
+            "coordination": {
+                "cn_4_neighbors": [
+                    "Sb",
+                    "Te",
+                    "Te",
+                    "Te"
+                ],
+                "distances": [
+                    2.023682916027473,
+                    2.5057058654124678,
+                    2.506197015257032,
+                    2.506688068867778
+                ],
+                "average_dist": 2.3855684663911876,
+                "distortion_index_sigma2": 402.42668285193463
+            },
+            "energetics_proxy": {
+                "steric_overlap_factor": 3.1620045562929264,
+                "reasoning": "Steric Factor 3.16. Spacious."
+            },
+            "files": [
+                "V_tet_x0.01.xyz",
+                "V_tet_x0.05.xyz"
+            ]
+        },
+        "Mn": {
+            "ionic_radius": 0.65,
+            "optimized_frac_coords": [
+                2.1460696527580858e-16,
+                0.00013430581382958362,
+                0.5401618316238077
+            ],
+            "point_group": "3m",
+            "coordination": {
+                "cn_4_neighbors": [
+                    "Sb",
+                    "Te",
+                    "Te",
+                    "Te"
+                ],
+                "distances": [
+                    2.035055577075949,
+                    2.507206839221607,
+                    2.507702928293511,
+                    2.5081989192454626
+                ],
+                "average_dist": 2.3895410659591323,
+                "distortion_index_sigma2": 408.3890132430081
+            },
+            "energetics_proxy": {
+                "steric_overlap_factor": 3.1308547339629986,
+                "reasoning": "Steric Factor 3.13. Spacious."
+            },
+            "files": [
+                "Mn_tet_x0.01.xyz",
+                "Mn_tet_x0.05.xyz"
+            ]
+        }
+    }
+}

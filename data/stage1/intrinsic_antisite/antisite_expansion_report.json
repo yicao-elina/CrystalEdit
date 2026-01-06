@@ -1,0 +1,47 @@
+{
+    "summary": "Systematic Antisite Expansion",
+    "base_structure": "Sb2Te3 4x4x1 Supercell",
+    "defect_type": "Sb_Te Antisite",
+    "configurations": [
+        {
+            "filename": "Antisite_Sb_Te_Te1_6.xyz",
+            "type": "single",
+            "site_label": "Te1 (Outer QL)",
+            "site_index": 6,
+            "point_group": "3m",
+            "ewald_energy": 0.0,
+            "bvs": "N/A"
+        },
+        {
+            "filename": "Antisite_Sb_Te_Te2_12.xyz",
+            "type": "single",
+            "site_label": "Te2 (Center QL)",
+            "site_index": 12,
+            "point_group": "-3m",
+            "ewald_energy": 0.0,
+            "bvs": "N/A"
+        },
+        {
+            "filename": "Antisite_Sb_Te_Multi_Conc_0.05.xyz",
+            "type": "multi",
+            "concentration": 0.05,
+            "num_antisites": 12,
+            "site_indices": [
+                55,
+                192,
+                187,
+                57,
+                236,
+                6,
+                14,
+                56,
+                235,
+                237,
+                208,
+                85
+            ],
+            "ewald_energy": 0.0,
+            "note": "Maximin spatial distribution"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+Step 1: (5 8 11) Single Twin Supercell Construction
+==================================================
+Loaded bulk structure: 2000 atoms
+Extracted lattice constant a0 = 3.25164 A
+
+Target Plane: (5, 8, 11)
+Surface Unit Cell (Minimal):
+Cell([[80.76906201933511, 0.0, 0.0], [43.91899563612143, 1.835021481821587, 0.0], [0.0, 0.0, 0.0]])
+Initial lateral widths: w0=3.37 A, w1=1.84 A
+Expanding lateral cell by 5x9 to meet > 15.0 A width.
+Expanded Surface Cell:
+Cell([[403.8453100966756, 0.0, 0.0], [395.2709607250929, 16.515193336394283, 0.0], [0.0, 0.0, 0.0]])
+Atomic layers per surface unit cell: 1
+Requesting 20 surface units to reach 20 atomic layers.
+Applying lateral repeat (5, 9, 1) to final slab.
+Constructed initial slab with 900 atoms (20 layers).
+Twin Plane identified at Layer 10: Z = 1.0438 A
+Removed 45 duplicate atoms at interface.
+Final atom count: 855
+Final Cell with Vacuum:
+Cell([[403.8453100966756, 0.0, 0.0], [395.2709607250929, 16.515193336394283, 0.0], [0.0, 0.0, 17.08767884042329]])
+Saved step1_5811_single_twin/Ti_5811_twin.cif
+Saved step1_5811_single_twin/Ti_5811_twin.extxyz

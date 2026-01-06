@@ -1,0 +1,34 @@
+{
+    "defect_type": "antisite_Sb_on_Te",
+    "site_info": {
+        "label": "Te2 (Center QL)",
+        "wyckoff": "3a",
+        "original_element": "Te",
+        "new_element": "Sb",
+        "supercell_index": 12,
+        "frac_coords": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "charge_analysis": {
+        "defect": "Sb_Te",
+        "site_type": "Te2 (Center QL)",
+        "nominal_oxidation_change": "Te(-2) -> Sb(+3) (Ionic limit)",
+        "valence_change": "Te(6e-) -> Sb(5e-)",
+        "electronic_behavior": "Acceptor (p-type)",
+        "mechanism": "1 less valence electron introduces a hole."
+    },
+    "validation": {
+        "point_group_symmetry": "-3m",
+        "initial_symmetry": "R-3m (D3d)",
+        "symmetry_reduction": "D3d -> C3v (likely) or lower",
+        "bond_valence_sum": "Could not calc BVS: Valences cannot be assigned!",
+        "I_fid": true
+    },
+    "metrics": {
+        "spatial_overlap": "High (Substitution)",
+        "coordination_number": 6
+    }
+}

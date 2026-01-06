@@ -1,0 +1,2306 @@
+[
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.16666666666666669,
+            0.08333333333333336,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.16666666666666669,
+            0.33333333333333337,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.16666666666666669,
+            0.5833333333333334,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.16666666666666669,
+            0.8333333333333334,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.4166666666666667,
+            0.08333333333333336,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.4166666666666667,
+            0.33333333333333337,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.4166666666666667,
+            0.5833333333333334,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.4166666666666667,
+            0.8333333333333334,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.6666666666666667,
+            0.08333333333333336,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.6666666666666667,
+            0.33333333333333337,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.6666666666666667,
+            0.5833333333333334,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.6666666666666667,
+            0.8333333333333334,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.9166666666666667,
+            0.08333333333333336,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.9166666666666667,
+            0.33333333333333337,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.9166666666666667,
+            0.5833333333333334,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (Intralayer)",
+        "frac_coords": [
+            0.9166666666666667,
+            0.8333333333333334,
+            0.41800779004134103
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Sb",
+                "distance": 2.583159964748074
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.6754203843938975
+            },
+            {
+                "element": "Te",
+                "distance": 2.690735376112233
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.16666666666666669,
+            0.08333333333333333,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.16666666666666669,
+            0.3333333333333333,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.16666666666666669,
+            0.5833333333333334,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.16666666666666669,
+            0.8333333333333334,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.4166666666666667,
+            0.08333333333333333,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.4166666666666667,
+            0.3333333333333333,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.4166666666666667,
+            0.5833333333333334,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.4166666666666667,
+            0.8333333333333334,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.6666666666666667,
+            0.08333333333333333,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.6666666666666667,
+            0.3333333333333333,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.6666666666666667,
+            0.5833333333333334,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.6666666666666667,
+            0.8333333333333334,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.9166666666666667,
+            0.08333333333333333,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.9166666666666667,
+            0.3333333333333333,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.9166666666666667,
+            0.5833333333333334,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.9166666666666667,
+            0.8333333333333334,
+            0.4699007294516056
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.5703605304990376
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499038
+            },
+            {
+                "element": "Te",
+                "distance": 2.570360530499041
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            5.551115123125783e-17,
+            0.0,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            5.551115123125783e-17,
+            0.25,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            5.551115123125783e-17,
+            0.5,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            5.551115123125783e-17,
+            0.75,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.25000000000000006,
+            0.0,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.25000000000000006,
+            0.25,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.25000000000000006,
+            0.5,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.25000000000000006,
+            0.75,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.5,
+            0.0,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.5,
+            0.25,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.5,
+            0.5,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.5,
+            0.75,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.75,
+            0.0,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.75,
+            0.25,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.75,
+            0.5,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Tetrahedral (Intralayer)",
+        "frac_coords": [
+            0.75,
+            0.75,
+            0.520258707437961
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Te",
+                "distance": 2.667525338003092
+            },
+            {
+                "element": "Sb",
+                "distance": 2.667525338003095
+            },
+            {
+                "element": "Te",
+                "distance": 3.357315362676948
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            },
+            {
+                "element": "Te",
+                "distance": 3.3573153626769483
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.08333333333333333,
+            0.16666666666666663,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.08333333333333333,
+            0.41666666666666663,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.08333333333333333,
+            0.6666666666666666,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.08333333333333333,
+            0.9166666666666666,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.3333333333333333,
+            0.16666666666666663,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.3333333333333333,
+            0.41666666666666663,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.3333333333333333,
+            0.6666666666666666,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.3333333333333333,
+            0.9166666666666666,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.5833333333333334,
+            0.16666666666666663,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.5833333333333334,
+            0.41666666666666663,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.5833333333333334,
+            0.6666666666666666,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.5833333333333334,
+            0.9166666666666666,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.8333333333333334,
+            0.16666666666666663,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.8333333333333334,
+            0.41666666666666663,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.8333333333333334,
+            0.6666666666666666,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    },
+    {
+        "void_type": "Octahedral (VdW Gap)",
+        "frac_coords": [
+            0.8333333333333334,
+            0.9166666666666666,
+            0.9730397580486742
+        ],
+        "nearest_neighbors": [
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Te",
+                "distance": 2.628412217042505
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091673
+            },
+            {
+                "element": "Sb",
+                "distance": 2.7289993867091678
+            },
+            {
+                "element": "Te",
+                "distance": 2.825625568201918
+            },
+            {
+                "element": "Sb",
+                "distance": 2.8416679907087143
+            }
+        ]
+    }
+]

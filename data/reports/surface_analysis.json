@@ -1,0 +1,13 @@
+{
+    "surface_energy_proxy_J_m2": 0.0,
+    "broken_bond_density_cm_minus_2": 0.0,
+    "symmetry_reduction": "R-3m -> P-3m1",
+    "physical_reasoning": "The Te-terminated surface is the ground-state cleavage plane because it preserves the closed-shell p-orbital manifold and minimizes the surface dipole, which is essential for preserving the Dirac cone in Topological Insulator simulations.",
+    "layer_expansions": {
+        "d_vdW_expansion_percent": 0.0,
+        "d_QL_expansion_percent": 0.0,
+        "top_Te_relaxation_z_A": 0.0
+    },
+    "termination": "Te (symmetric)",
+    "work_function_proxy_eV": "Not calculated"
+}

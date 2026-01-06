@@ -1,0 +1,27 @@
+{
+    "summary": "Systematic Interstitial Hydrogen Generation",
+    "site_selection": {
+        "geometry": "Distorted_CN7",
+        "is_vdw": true,
+        "min_dist_to_host": 2.5703605304990376,
+        "optimization_shift": 0.0
+    },
+    "metrics": {
+        "tetrahedral_distortion_variance": "26.94",
+        "steric_overlap_factor": 1.8359718074993128,
+        "physical_reasoning": "This site is meta-stable because of the steric overlap factor (1.84). VdW placement reduces strain."
+    },
+    "configurations": [
+        {
+            "filename": "H_Interstitial_Distorted_CN7_1.xyz",
+            "type": "single",
+            "charge": 1.0
+        },
+        {
+            "filename": "H_Interstitial_Multi_x0.05.xyz",
+            "type": "multi",
+            "charge": 3.0,
+            "note": "Maximin sampling"
+        }
+    ]
+}
