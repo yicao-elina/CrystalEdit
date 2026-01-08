@@ -79,7 +79,7 @@
 % Keep it short and understandable by any reader of Science.
 % Avoid acronyms or jargon. Use sentence case.
 \def\scititle{
-	Project Update: CrystalEdit - Benchmarking LLMs for Physics-Aware Crystal Manipulation
+	Project Update: CrystalEdit - Exploring LLM Capabilities and Limitations for Physics-Aware Crystal Manipulation
 }
 % Store the title in a variable for reuse in the supplement (otherwise \maketitle deletes it)
 \title{\bfseries \boldmath \scititle}
@@ -114,20 +114,20 @@
 \noindent
 
 
-\section{Executive Summary: Why CrystalEdit?}
-While generative AI has succeeded in \textit{de novo} crystal generation, the "Editing" problem remains unsolved. In the same way that a scientist doesn't always discover a new material but rather optimizes an existing one through doping or strain engineering, AI agents must learn to perform \textbf{targeted, physics-constrained modifications}.
+\section{Executive Summary: The CrystalEdit Vision}
+While generative AI has shown promise in \textit{de novo} crystal generation, the "Editing" problem—performing \textit{targeted, physics-constrained} modifications—remains challenging. Just as experimental scientists often optimize existing materials through doping or defect engineering rather than discovering entirely new ones, AI agents should be capable of performing similar targeted manipulations.
 
-\textbf{CrystalEdit} serves as a benchmark and a toolset to empower LLM agents to effectively move from \textit{understanding} how ML models see materials (your XAI work) to \textit{actively manipulating} those materials. It acts as the \textbf{"Active Intelligence"} component that completes our research ecosystem, bridging the gap between static datasets and the high-fidelity, non-equilibrium configurations required for robust Machine Learning Force Fields (MLFFs).
+\textbf{CrystalEdit} aims to develop a benchmark and toolset that explores how LLM agents can move from \textit{understanding} how ML models interpret materials (our XAI work) to \textit{actively manipulating} those materials. The goal is to create an \textbf{"Active Intelligence"} component that bridges the gap between static datasets and the high-quality, non-equilibrium configurations needed for robust Machine Learning Force Fields (MLFFs).
 
-Key capabilities enabled by CrystalEdit:
+Potential capabilities we are exploring:
 \begin{itemize}
-    \item \textbf{Bridge the "Data Gap":} Generate high-quality, non-equilibrium synthetic data for MLFF training without the prohibitive cost of long AIMD runs.
-    \item \textbf{Automate Complex Workflows:} Reduce weeks of manual structure building (e.g., grain boundaries, twin defects) into natural language commands.
-    \item \textbf{Enable Active Learning:} Directly link with our XAI findings to "edit" structures in directions that maximize the model's scientific information gain.
+    \item \textbf{Addressing the "Data Gap":} Investigating whether LLMs can help generate high-quality, non-equilibrium synthetic data for MLFF training, potentially reducing the need for costly AIMD runs.
+    \item \textbf{Workflow Automation:} Testing whether complex structure-building tasks (e.g., grain boundaries, twin defects) can be simplified through natural language interfaces.
+    \item \textbf{Active Learning Integration:} Exploring connections with our XAI framework to identify and generate structures that maximize model learning.
 \end{itemize}
 
 \section{Strategic Alignment with Current Research}
-This project is the logical evolution of our previous work:
+This project builds upon our previous work while exploring new directions:
 
 \begin{table}[h]
 \centering
@@ -135,39 +135,41 @@ This project is the logical evolution of our previous work:
 \toprule
 \textbf{Previous Work} & \textbf{Connection to CrystalEdit} \\
 \midrule
-\textbf{NeurIPS (AI4Mat)} & We identified that MLFFs need diverse, non-equilibrium states. CrystalEdit provides the "surgical" precision to create these states (strains, defects) systematically. \\
-\textbf{XAI (AAAI 2026)} & Our XAI framework tells us \textit{what} the model is learning; CrystalEdit allows us to \textit{test} those insights by specifically modifying the features the model relies on. \\
-\textbf{General: Material Screening} & By automating the "Crystal Editing" process, we can move from screening known databases to screening "evolved" materials with nuanced modifications and defect manipulation. \\
+\textbf{NeurIPS (AI4Mat)} & We identified that MLFFs require diverse, non-equilibrium states. CrystalEdit explores whether LLM-assisted generation can systematically create such states (strains, defects). \\
+\textbf{XAI (AAAI 2026)} & Our XAI framework reveals \textit{what} the model learns; CrystalEdit investigates whether we can \textit{test} those insights by specifically modifying identified features. \\
+\textbf{General: Material Screening} & By exploring automated "Crystal Editing" processes, we aim to move beyond screening known databases toward systematically modified structures with controlled defects. \\
 \bottomrule
 \end{tabular}
 \caption{Strategic alignment of CrystalEdit with ongoing research goals.}
 \label{tab:alignment}
 \end{table}
 
-\section{Implementation Progress}
+\section{Implementation Progress and Current Limitations}
 
-\subsection{Stage 1: 0D Point Defects (The Building Blocks)}
-We have automated the insertion of interstitials and substitutions in the \ce{Sb2Te3} system.
+\subsection{Stage 1: 0D Point Defects (Most Robust Performance)}
+We have implemented automated insertion of interstitials and substitutions in the \ce{Sb2Te3} system, which shows the highest success rate among all defect types.
 \begin{itemize}
-    \item \textbf{Innovation:} The agent identifies octahedral/tetrahedral voids in the van der Waals gap automatically, ensuring steric and charge consistency.
-    \item \textbf{Value:} Enables rapid "doping-on-the-fly" for digital twin experiments.
+    \item \textbf{Approach:} The agent identifies octahedral/tetrahedral voids in the van der Waals gap, with validation through ASE/Pymatgen checks.
+    \item \textbf{Success Rate:} Point defect generation is relatively robust, with most failures occurring when the LLM misidentifies chemically inequivalent sites.
+    \item \textbf{Limitation:} The system cannot yet automatically recognize all crystallographic variations of defect sites. For example, in structures with multiple inequivalent positions, significant prompt engineering is required to guide the LLM toward the correct site selection.
 \end{itemize}
 
-\subsection{Stage 2: 2D Surface \& Planar Engineering}
-Critical for our work in topological insulators and 2D electronics.
+\subsection{Stage 2: 2D Surface \& Planar Engineering (Moderate Robustness)}
+We have implemented basic capabilities for surface and planar defect generation, though with notable limitations.
 \begin{itemize}
-    \item \textbf{Slab Generation:} Controlled termination (Te vs. Sb) is now a single-command process (Figure \ref{fig:defects}A, B).
-    \item \textbf{Stacking Faults:} We can now model metastable phases by inducing Shockley partial dislocations, enriching our MLFF training sets with transition-state-like configurations (Figure \ref{fig:defects}C).
+    \item \textbf{Slab Generation:} Controlled termination (Te vs. Sb) can be achieved with careful prompting (Figure \ref{fig:defects}A, B).
+    \item \textbf{Stacking Faults:} Implementation of Shockley partial dislocations for metastable phase modeling (Figure \ref{fig:defects}C).
+    \item \textbf{Challenges:} Instruction following becomes less robust for 2D defects. The LLM occasionally struggles with relative spatial positioning, particularly when multiple layers need coordinated manipulation. Success often requires iterative prompt refinement and incorporation of domain-specific physical knowledge into the context.
 \end{itemize}
 
 \begin{figure}[ht]
     \centering
-    \begin{subfigure}{0.8\textwidth}
+    \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{figures/Fig_Slab_Te.pdf}
         \caption{Te-Terminated Slab}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{0.8\textwidth}
+    \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{figures/Fig_Slab_Sb.pdf}
         \caption{Sb-Terminated Slab}
     \end{subfigure}
@@ -176,40 +178,108 @@ Critical for our work in topological insulators and 2D electronics.
         \includegraphics[width=\linewidth]{figures/Fig_Fault.pdf}
         \caption{Stacking Fault}
     \end{subfigure}
-    \caption{Planar defects generated by CrystalEdit. (A) Thermodynamically stable Te-terminated surface. (B) Metastable Sb-terminated surface. (C) Stacking fault modifying the quintuple layer sequence.}
+    \caption{Planar defects generated by CrystalEdit. (A) Thermodynamically stable Te-terminated surface. (B) Metastable Sb-terminated surface. (C) Stacking fault modifying the quintuple layer sequence. Success rates vary with defect complexity.}
     \label{fig:defects}
 \end{figure}
 
-\subsection{Stage 3: Complex 3D Microstructures (The "Expert" Level)}
-We have implemented Coincidence Site Lattice (CSL) theory for high-order defects.
+\subsection{Stage 3: Complex 3D Microstructures (Work in Progress)}
+We have begun exploring Coincidence Site Lattice (CSL) theory implementation for high-order defects, with initial testing on BCC Ti twin boundaries.
+
+\textbf{Collaborative Case Study:} This work originated from a collaboration request by Xiaofun Feng (EPFL), who needed twin plane structures for mechanical property studies. This provided an excellent test case for the system's capabilities and limitations.
+
 \begin{itemize}
-    \item \textbf{Twin Boundaries:} Automated construction of coherent $\Sigma 3$ and $\Sigma 7$ boundaries.
-    \item \textbf{Hierarchical Logic:} The ability to nest defects (e.g., secondary \{332\} twins in BCC Ti) allows us to simulate the complex microstructures found in real-world industrial alloys (Figure \ref{fig:twin_render}).
+    \item \textbf{Twin Boundaries:} Attempted construction of coherent $\Sigma 3$ and $\Sigma 7$ boundaries with hierarchical \{233\} and \{322\} twin systems (Figure \ref{fig:twin_render}).
+    \item \textbf{Human-in-the-Loop Requirement:} Generating physically correct twin structures required substantial back-and-forth interaction. Key success factors included:
+    \begin{itemize}
+        \item Providing well-documented literature references with clear methodological descriptions
+        \item Iterative prompt engineering to incorporate crystallographic constraints
+        \item Manual validation at each construction step
+        \item Explicit injection of domain knowledge (e.g., twin plane orientations, CSL relationships)
+    \end{itemize}
+    \item \textbf{Script-Based Enhancement:} We found that leveraging Model Context Protocol (MCP) with script-based generation significantly improved robustness compared to pure natural language approaches. Pre-validated crystallographic operations reduce the LLM's burden of spatial reasoning.
+    \item \textbf{Current Limitation:} The system cannot independently handle complex 3D defect variations. Success heavily depends on the quality of contextual information provided and the clarity of methodological documentation in reference materials.
 \end{itemize}
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\linewidth]{figures/twin_render_233_322.png}
-    \caption{POV-Ray rendering of the hierarchical twin structure in BCC Ti. The image shows the primary \{233\} twin boundary plane (grey) and the distinct atomic arrangements of the twin domains (blue vs red), confirming the correct crystallographic orientation and periodicity.}
+    \caption{POV-Ray rendering of a hierarchical twin structure in BCC Ti, generated through iterative human-in-the-loop interaction. The image shows the primary \{233\} twin boundary plane (grey) and distinct atomic arrangements of twin domains (blue vs red). This structure was developed in collaboration with X. Feng (EPFL) and required multiple refinement cycles with literature-informed prompting.}
     \label{fig:twin_render}
 \end{figure}
 
-\section{Impact: Beyond Structure Building}
-By benchmarking how well an LLM can perform these tasks, we are building a "Scientist-in-the-Loop" agent. This framework will allow us to:
-\begin{enumerate}
-    \item \textbf{Lower the Barrier:} Non-experts can generate Nature-quality simulation cells via natural language.
-    \item \textbf{Ensure Physical Fidelity:} Every edit is passed through a "Physics Guardrail" (ASE/Pymatgen validation) before being accepted (Figure \ref{fig:benchmark}).
-    \item \textbf{Synthesize Better Data:} Instead of "noisy" random perturbations, we generate "physics-guided" perturbations that represent real experimental conditions.
-\end{enumerate}
+\section{Success Rate Analysis and Robustness Patterns}
+
+Our preliminary assessment reveals a clear hierarchy in task difficulty:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lp{8cm}@{}}
+\toprule
+\textbf{Defect Type} & \textbf{Robustness Assessment} \\
+\midrule
+\textbf{0D (Point Defects)} & High robustness ($\sim$80-90\% success with minimal prompting); main failures from site identification \\
+\textbf{2D (Surfaces/Faults)} & Moderate robustness ($\sim$50-70\% success); requires careful prompt engineering for spatial consistency \\
+\textbf{3D (Grain Boundaries)} & Low robustness ($\sim$30-40\% success); heavily dependent on human guidance and reference quality \\
+\bottomrule
+\end{tabular}
+\caption{Preliminary success rates for different defect generation tasks. Rates based on first-attempt success without iterative refinement.}
+\label{tab:success_rates}
+\end{table}
+
+\textbf{Key Findings:}
+\begin{itemize}
+    \item \textbf{Spatial Reasoning Limitation:} LLMs struggle with relative spatial positioning in 3D, often confusing coordinate transformations or crystallographic relationships.
+    \item \textbf{Context Dependence:} Performance dramatically improves when provided with well-documented methodological references, suggesting the need for curated knowledge bases.
+    \item \textbf{Hybrid Approach Advantage:} Combining LLM reasoning with validated script libraries (via MCP) shows promise for improving reliability.
+\end{itemize}
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\linewidth]{figures/Fig2_Benchmark.pdf}
-    \caption{Benchmarking structural fidelity. The plot compares the 'Physics Score' (a composite metric of bond valence and steric validity) against the geometric complexity of the edit. CrystalEdit maintains high fidelity even for complex operations like grain boundary generation.}
+    \caption{Preliminary benchmarking of structural fidelity. The plot compares a composite 'Physics Score' (bond valence and steric validity) against geometric complexity. While point defects maintain high fidelity, complex operations show increased variability, highlighting the need for improved validation frameworks. Error bars represent variation across multiple generation attempts.}
     \label{fig:benchmark}
 \end{figure}
 
+\section{Lessons Learned and Future Directions}
+
+\subsection{Current System Limitations}
+\begin{enumerate}
+    \item \textbf{Incomplete Defect Space Coverage:} The system cannot automatically enumerate all crystallographically distinct defect configurations.
+    \item \textbf{Instruction Following Variability:} Performance degrades with increasing structural complexity, requiring extensive prompt engineering.
+    \item \textbf{Domain Knowledge Injection:} Physical constraints must often be explicitly encoded rather than inferred by the LLM.
+    \item \textbf{Validation Burden:} Significant human oversight remains necessary, particularly for novel or complex structures.
+\end{enumerate}
+
+\subsection{Promising Directions}
+\begin{enumerate}
+    \item \textbf{Hybrid Architectures:} Combining LLM reasoning with validated crystallographic operation libraries shows improved reliability.
+    \item \textbf{Knowledge Base Development:} Curating high-quality reference materials with clear methodological descriptions enhances context quality.
+    \item \textbf{Active Validation Loops:} Integrating real-time physical validation (symmetry checks, energy screening) as guardrails rather than post-hoc verification.
+    \item \textbf{Task Stratification:} Focusing LLM capabilities on appropriate complexity levels while using traditional methods for highly complex operations.
+\end{enumerate}
+
+\section{Realistic Impact Assessment}
+
+This month's work has established CrystalEdit as a \textit{proof-of-concept} for LLM-assisted crystal engineering, with clear evidence of both capabilities and limitations:
+
+\textbf{Near-Term Value:}
+\begin{itemize}
+    \item Accelerating simple, repetitive defect generation tasks (particularly point defects)
+    \item Providing natural language interfaces for basic structure manipulation
+    \item Serving as an educational tool for understanding structure-property relationships
+\end{itemize}
+
+\textbf{Research Questions for Future Work:}
+\begin{itemize}
+    \item Can hybrid LLM-script approaches achieve reliability comparable to expert-written code?
+    \item What level of domain knowledge injection is optimal for balancing flexibility and correctness?
+    \item How can we systematically quantify the "physics understanding" of LLM-generated structures?
+    \item Can active learning frameworks effectively guide LLMs toward generating scientifically valuable structures?
+\end{itemize}
+
 \section{Conclusion}
-This month's work has established CrystalEdit as a capable tool for deterministic crystal engineering, moving from simple point defects to complex, hierarchical microstructures. This "Active Intelligence" component is poised to accelerate our ability to explore and optimize material properties.
+CrystalEdit represents an early-stage exploration of LLM-assisted crystal structure manipulation. While showing promise for simple tasks, the system's current limitations—particularly in spatial reasoning and instruction following for complex defects—highlight the need for careful integration of traditional computational methods with emerging AI capabilities. The collaborative case study with EPFL demonstrated both the potential and the practical challenges of deploying such systems in real research scenarios.
+
+Moving forward, we will focus on developing hybrid approaches that leverage LLM strengths (context understanding, natural language interfaces) while mitigating weaknesses (spatial reasoning, physical constraint satisfaction) through validated computational frameworks. This realistic assessment positions CrystalEdit as a tool for accelerating certain workflows rather than replacing expert knowledge, while continuing to explore the boundaries of what LLM-assisted materials design can achieve.
 
 \end{document}
