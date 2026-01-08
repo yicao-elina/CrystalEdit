@@ -137,7 +137,7 @@ This project is the logical evolution of our previous work:
 \midrule
 \textbf{NeurIPS (AI4Mat)} & We identified that MLFFs need diverse, non-equilibrium states. CrystalEdit provides the "surgical" precision to create these states (strains, defects) systematically. \\
 \textbf{XAI (AAAI 2026)} & Our XAI framework tells us \textit{what} the model is learning; CrystalEdit allows us to \textit{test} those insights by specifically modifying the features the model relies on. \\
-\textbf{High-Throughput Screening} & By automating the "Crystal Editing" process, we can move from screening known databases to screening "evolved" materials with nuanced modifications. \\
+\textbf{General: Material Screening} & By automating the "Crystal Editing" process, we can move from screening known databases to screening "evolved" materials with nuanced modifications and defect manipulation. \\
 \bottomrule
 \end{tabular}
 \caption{Strategic alignment of CrystalEdit with ongoing research goals.}
@@ -153,7 +153,7 @@ We have automated the insertion of interstitials and substitutions in the \ce{Sb
     \item \textbf{Value:} Enables rapid "doping-on-the-fly" for digital twin experiments.
 \end{itemize}
 
-\subsection{Stage 2: 2D Surface & Planar Engineering}
+\subsection{Stage 2: 2D Surface \& Planar Engineering}
 Critical for our work in topological insulators and 2D electronics.
 \begin{itemize}
     \item \textbf{Slab Generation:} Controlled termination (Te vs. Sb) is now a single-command process (Figure \ref{fig:defects}A, B).
@@ -162,17 +162,17 @@ Critical for our work in topological insulators and 2D electronics.
 
 \begin{figure}[ht]
     \centering
-    \begin{subfigure}{0.3\textwidth}
+    \begin{subfigure}{0.8\textwidth}
         \includegraphics[width=\linewidth]{figures/Fig_Slab_Te.pdf}
         \caption{Te-Terminated Slab}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{0.3\textwidth}
+    \begin{subfigure}{0.8\textwidth}
         \includegraphics[width=\linewidth]{figures/Fig_Slab_Sb.pdf}
         \caption{Sb-Terminated Slab}
     \end{subfigure}
     \hfill
-    \begin{subfigure}{0.3\textwidth}
+    \begin{subfigure}{0.8\textwidth}
         \includegraphics[width=\linewidth]{figures/Fig_Fault.pdf}
         \caption{Stacking Fault}
     \end{subfigure}
@@ -210,6 +210,6 @@ By benchmarking how well an LLM can perform these tasks, we are building a "Scie
 \end{figure}
 
 \section{Conclusion}
-This month's work has established CrystalEdit as a capable tool for deterministic crystal engineering, moving from simple point defects to complex, hierarchical microstructures. This "Active Intelligence" component is poised to significantly accelerate our ability to explore and optimize material properties.
+This month's work has established CrystalEdit as a capable tool for deterministic crystal engineering, moving from simple point defects to complex, hierarchical microstructures. This "Active Intelligence" component is poised to accelerate our ability to explore and optimize material properties.
 
 \end{document}
