@@ -1,0 +1,16 @@
+Step B: (5 8 11) Twin Generation (STGB Approach)
+Plane: (5, 8, 11)
+Tilt Axis: [1, -2, 1]
+----------------------------------------
+Loaded bulk Ti: 2 atoms
+Grain A Primitive Surface Basis:
+  a1: [81.35590548  0.          0.        ]
+  a2: [44.18691352  1.88332121  0.        ]
+  d_spacing (5 8 11): 0.2244 A
+  Target Thickness: 30.0 A -> 134 planes
+Combined Atoms: 536
+Cell Z: 60.1350 A
+Overlap Analysis (Threshold 2.0 A):
+  Found 16 atoms to remove.
+Final Atoms: 520
+Written to data/structures/ti_twin/stepB_5811_twins/Ti_5811_twin_stgb.cif and data/structures/ti_twin/stepB_5811_twins/Ti_5811_twin_stgb.xyz

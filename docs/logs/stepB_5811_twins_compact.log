@@ -1,0 +1,12 @@
+Building Compact 3D (5 8 11) Twin Supercell (Corrected)
+========================================
+Oriented Unit Cell: 840 atoms
+Cell Dimensions: [15.92969781 19.23693771 47.12068159]
+Measured avg Z-spacing: 1.6258 A
+Construction Details:
+  Grain A atoms: 450
+  Grain B atoms: 450
+  Z-shift applied: 37.3938 A
+  Final Lz: 52.0262 A
+  Overlaps removed: 139
+  Final Atom Count: 761

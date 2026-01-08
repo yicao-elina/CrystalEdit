@@ -1,0 +1,198 @@
+% science_template.tex
+% See accompanying readme.txt for copyright statement, change log etc.
+
+% Any modification of this template, including writing a paper using it,
+% MUST rename the file i.e. use a different file name.
+
+%%%%%%%%%%%%%%%% START OF PREAMBLE %%%%%%%%%%%%%%%
+
+% Basic setup. Authors shouldn't need to adjust these commands.
+% It's annoying, but please do NOT strip these into a separate file.
+% They need to be included in this .tex for our production software to work.
+
+% Use the basic LaTeX article class, 12pt text
+\documentclass[12pt]{article}
+
+% Science uses Times font. If you don't have this installed (most LaTeX installations will be
+% fine) or prefer the old Computer Modern fonts, comment out the following line
+\usepackage{newtxtext,newtxmath}
+% Depending on your LaTeX fonts installation, you might get better results with one or both of these:
+% \usepackage{mathptmx}
+%\usepackage{txfonts}
+
+% Allow external graphics files
+\usepackage{graphicx}
+
+% Use US letter sized paper with 1 inch margins
+\usepackage[letterpaper,margin=1in]{geometry}
+
+% Yi Cao's additional 
+\usepackage[version=4]{mhchem}
+\usepackage{subcaption}
+% Double line spacing, including in captions
+\linespread{1.5} % For some reason double spacing is 1.5, not 2.0!
+
+% One space after each sentence
+\frenchspacing
+
+% Abstract formatting and spacing - no heading
+\renewenvironment{abstract}
+	{\quotation}
+	{\endquotation}
+
+% No date in the title section
+% \date{}
+
+% Reference section heading
+\renewcommand\refname{References and Notes}
+
+% Figure and Table labels in bold
+\makeatletter
+\renewcommand{\fnum@figure}{\textbf{Figure \thefigure}}
+\renewcommand{\fnum@table}{\textbf{Table \thetable}}
+\makeatother
+
+% Call the accompanying scicite.sty package.
+% This formats citation numbers in Science style.
+\usepackage{scicite}
+
+% Provides the \url command, and fixes a crash if URLs or DOIs contain underscores
+\usepackage{url}
+
+%%%%%%%%%%%% CUSTOM COMMANDS AND PACKAGES %%%%%%%%%%%%
+
+% Authors can define simple custom commands e.g. as shortcuts to save on typing
+% Use \newcommand (not \def) to avoid overwriting existing commands.
+% Keep them as simple as possible and note the warning in the text below.
+% Example:
+\newcommand{\pcc}{\,cm$^{-3}$}	% per cm-cubed
+
+% Please DO NOT import additional external packages or .sty files.
+% Those are unlikely to work with our conversion software and will cause problems later.
+% Don't add any more \usepackage{} commands.
+
+
+%%%%%%%%%%%%%%%% TITLE AND AUTHORS %%%%%%%%%%%%%%%%
+
+% Title of the paper.
+% Keep it short and understandable by any reader of Science.
+% Avoid acronyms or jargon. Use sentence case.
+\def\scititle{
+	Monthly Report: Generative VAE Pipeline for Cr-Doped \ce{Sb2Te3} Exploration
+}
+% Store the title in a variable for reuse in the supplement (otherwise \maketitle deletes it)
+\title{\bfseries \boldmath \scititle}
+
+% Author and institution list.
+% Institution numbers etc. should be hard-coded, do *not* use the \footnote command.
+\author{
+	% You can write out first names or use initials - either way is acceptable, but be consistent
+	Yi Cao$^{1\dagger}$,
+	Paulette Clancy$^{1\ast\dagger}$\and
+	% Additional lines of authors should be inserted using the \and command (not \\
+	% Institution list, in a slightly smaller font
+	\small$^{1}$Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore & 21218, USA.\and
+	% \small$^{2}$Another Department, Different Institution, City & Postal Code, Country.\and
+	% % Identify at least one corresponding author, with contact email address
+	\small$^{\ast}$Corresponding author. Email: pclancy3@jhu.edu\and
+	% % Joint contributions can be indicated like this
+	% \small$^{\dagger}$These authors contributed equally to this work.
+}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%% START OF MAIN TEXT %%%%%%%%%%%%%%%
+\begin{document} 
+
+% Insert the title and author list
+\maketitle
+
+% The first paragraph of any Science paper does NOT have a heading
+% Nor is it indented
+\noindent
+
+
+\section{Project Title}
+\textbf{Accelerated Exploration of Cr-Doped \ce{Sb2Te3} Configuration Space via Physically Constrained Variational Autoencoders}
+
+\section{Research Objectives}
+
+The primary objective for this month was to establish a robust generative machine learning pipeline to explore the complex potential energy surface of Cr-doped \ce{Sb2Te3}. Traditional Ab-initio Molecular Dynamics (AIMD) can be computationally expensive and may get trapped in local minima. To address this, we developed a Variational Autoencoder (VAE) framework to:
+
+\begin{enumerate}
+	\item Encode high-dimensional atomic trajectories into a compressed latent space.
+	\item Generate physically valid structures by incorporating physics-based constraints (e.g., minimum interatomic distances).
+	\item Implement a "Hole Targeting" active learning strategy to identify and sample undersampled regions of the configuration space, providing high-value candidates for subsequent DFT verification.
+\end{enumerate}
+
+\section{Methods}
+
+The developed pipeline consists of three integrated stages:
+
+\subsection{Stage 1: Data Ingestion and Standardization}
+We utilized `stage1\_data\_loader.py` to process raw AIMD trajectories (in `.extxyz` format). This stage involves:
+\begin{itemize}
+	\item \textbf{Statistical Validation:} Computation of energy distributions, force magnitudes, and interatomic distances to ensure data integrity.
+	\item \textbf{Normalization:} Z-score standardization of atomic positions and energies to facilitate stable ML training.
+	\item \textbf{Visualization:} Generation of diagnostic plots (saved in `Stage1/`) to verify the coverage of the training data.
+\end{itemize}
+
+\subsection{Stage 2: Physically Constrained VAE Training}
+The core generative model is trained using `\texttt{stage2\_vae\_training.py}`. We implemented a \textbf{Physically Constrained VAE (PC-VAE)} that differs from standard VAEs by including a custom physics loss term.
+\begin{itemize}
+	\item \textbf{Architecture:} A deep encoder-decoder network that maps atomic coordinates to a lower-dimensional latent space.
+	\item \textbf{Physics Constraint Layer:} A custom Keras layer that penalizes reconstructed structures with unphysically short bond lengths ($< 0.8$ \AA), ensuring that generated candidates are chemically plausible.
+	\item \textbf{Loss Function:} A composite loss minimizing reconstruction error (MSE), latent space regularity (KL Divergence), and physical violations.
+\end{itemize}
+
+\subsection{Stage 3: Targeted Sampling ("Hole Targeting")}
+To maximize the efficiency of data generation, `stage3\_vae\_targeted.py` implements an active learning strategy.
+\begin{itemize}
+	\item \textbf{Latent Space Mapping:} The trained encoder maps all existing AIMD frames to the latent space.
+	\item \textbf{Hole Identification:} We generate random latent vectors and select those that are furthest from any existing training data points (using k-Nearest Neighbors analysis).
+	\item \textbf{Decoding:} These "hole" vectors are decoded back into atomic structures, creating `targeted\_candidates.extxyz`. These candidates represent unexplored regions of the configuration space.
+\end{itemize}
+
+\section{Results and Discussion}
+
+The pipeline has been successfully deployed in the `vae\_pipeline` directory.
+
+\subsection{Latent Space Distribution}
+The VAE successfully compressed the Cr-doped \ce{Sb2Te3} trajectories into a structured latent space. Post-analysis (conducted via `post\_analysis\_vae.py` and visualized in `vae\_post\_analysis/`) reveals that the training data forms distinct clusters corresponding to stable basins. The "Hole Targeting" algorithm successfully identified gaps between these basins.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\linewidth]{vae_post_analysis/vae_hole_targeting.pdf}
+    \caption{2D projection of the VAE latent space. Blue points represent existing AIMD training data. Red 'x' markers indicate generated candidates targeting undersampled regions ("holes"), which will be prioritized for DFT calculations.}
+    \label{fig:latent_space}
+\end{figure}
+
+\subsection{Structural Validity}
+Comparison of pairwise distance distributions (Figure \ref{fig:feature_comp}) confirms that the VAE-generated structures retain the structural fingerprints of the training data while introducing novel variations. The physics constraints effectively prevented atom overlap, a common failure mode in unconstrained generative models.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\linewidth]{vae_post_analysis/feature_comparison.pdf}
+    \caption{Pairwise distance distribution comparison. The generated candidates (Red) closely follow the structural characteristics of the training data (Blue), indicating physical plausibility.}
+    \label{fig:feature_comp}
+\end{figure}
+
+\section{Conclusions}
+
+We have established a functional Generative VAE pipeline for Cr-doped \ce{Sb2Te3}. This tool allows us to:
+\begin{enumerate}
+	\item Drastically reduce the computational cost of exploring the phase space compared to brute-force AIMD.
+	\item Automatically generate targeted starting configurations for DFT that explore rare or transition-state-like regions.
+	\item Ensure the physical validity of generated structures through novel constraint layers.
+\end{enumerate}
+
+\section{Future Work}
+
+\begin{itemize}
+	\item \textbf{DFT Verification:} Perform single-point DFT calculations on the generated `targeted\_candidates.extxyz` to validate their energies and stability.
+	\item \textbf{Loop Closure:} Incorporate the validated high-energy/rare configurations back into the training set to refine the Machine Learning Force Field (MLFF).
+	\item \textbf{Expansion:} Extend the VAE to condition on variable Cr concentrations, allowing for the generation of structures with varying doping levels.
+\end{itemize}
+
+\end{document}

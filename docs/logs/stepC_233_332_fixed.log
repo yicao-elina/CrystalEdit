@@ -1,0 +1,14 @@
+FIXED Hierarchical {233} -> {332} Twin Builder
+============================================================
+Established Orthogonal Basis for {233}:
+  X: [0 1 -1] (Length 4.60 A)
+  Y: [-3 1 1] (Length 10.78 A)
+  Z: [2 3 3]  (Length 15.25 A)
+Supercell Size: [18.39403064 21.5689128  45.75457352]
+Total Atoms (Single Crystal): 1056
+[Primary Twin] Removed 62 overlapping atoms.
+Primary Twin A-B constructed. Atoms: 1022
+[Secondary Twin C] No overlaps found.
+Secondary Twin C inserted (Spherical, r=8.0 A).
+Secondary Normal used: [-0.17443695 -0.5814565  -0.79465722] (Cartesian)
+Final Atom Count: 1022

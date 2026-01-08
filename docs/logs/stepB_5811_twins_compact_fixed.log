@@ -1,0 +1,12 @@
+FIXED 3D PERIODIC (5 8 11) TWIN CONSTRUCTION
+============================================================
+Lattice constant a0 = 3.2516 Å
+Oriented unit cell:
+  lx = 7.965 Å
+  ly = 19.237 Å
+  lz = 47.121 Å
+Supercell atoms (single grain): 840
+Atoms after twin duplication: 848
+Removed atoms near twin plane: 16
+Final atom count: 832
+Sanity check passed: all atoms inside PBC cell
