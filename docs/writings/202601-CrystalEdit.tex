@@ -29,6 +29,7 @@
 % Yi Cao's additional 
 \usepackage[version=4]{mhchem}
 \usepackage{subcaption}
+\usepackage{booktabs} % For better table formatting
 % Double line spacing, including in captions
 \linespread{1.5} % For some reason double spacing is 1.5, not 2.0!
 
@@ -65,7 +66,7 @@
 % Use \newcommand (not \def) to avoid overwriting existing commands.
 % Keep them as simple as possible and note the warning in the text below.
 % Example:
-\newcommand{\pcc}{\,cm$^{-3}$}	% per cm-cubed
+\newcommand{\pcc}{\,cm$^{-3}$} % per cm-cubed
 
 % Please DO NOT import additional external packages or .sty files.
 % Those are unlikely to work with our conversion software and will cause problems later.
@@ -78,7 +79,7 @@
 % Keep it short and understandable by any reader of Science.
 % Avoid acronyms or jargon. Use sentence case.
 \def\scititle{
-	Monthly Report: CrystalEdit - Physics-Aware Crystal Structure Manipulation
+	Project Update: CrystalEdit - Benchmarking LLMs for Physics-Aware Crystal Manipulation
 }
 % Store the title in a variable for reuse in the supplement (otherwise \maketitle deletes it)
 \title{\bfseries \boldmath \scititle}
@@ -113,68 +114,51 @@
 \noindent
 
 
-\section{Project Title}
-\textbf{CrystalEdit: Benchmarking and Enhancing Large Language Models for Physics-Aware Crystal Structure Manipulation}
+\section{Executive Summary: Why CrystalEdit?}
+While generative AI has succeeded in \textit{de novo} crystal generation, the "Editing" problem remains unsolved. In the same way that a scientist doesn't always discover a new material but rather optimizes an existing one through doping or strain engineering, AI agents must learn to perform \textbf{targeted, physics-constrained modifications}.
 
-\section{Abstract}
-\begin{abstract}
-The rapid advancement of generative AI in materials science has enabled de novo crystal structure generation, yet a critical capability remains underexplored: precise, user-guided modification of existing crystal structures while preserving physical validity. Analogous to advanced image editing tools that enable fine-grained control with high fidelity, materials science lacks robust methods for "crystal editing" - the ability to make targeted structural modifications based on natural language instructions while maintaining crystallographic consistency and thermodynamic plausibility.
+\textbf{CrystalEdit} serves as a benchmark and a toolset to empower LLM agents to effectively move from \textit{understanding} how ML models see materials (your XAI work) to \textit{actively manipulating} those materials. It acts as the \textbf{"Active Intelligence"} component that completes our research ecosystem, bridging the gap between static datasets and the high-fidelity, non-equilibrium configurations required for robust Machine Learning Force Fields (MLFFs).
 
-Here, we introduce CrystalEdit, a framework that enables large language models (LLMs) to perform precise crystal structure manipulations through natural language queries. We address three fundamental challenges: (1) developing physics-aware representations that capture both local atomic environments and global crystallographic constraints, (2) creating a multi-modal interface that combines textual instructions with structural context, and (3) implementing validation mechanisms that ensure edited structures remain physically meaningful.
-
-Our approach combines hierarchical crystal representations, physics-informed prompting strategies, and iterative refinement with computational validation. We demonstrate CrystalEdit's capabilities across diverse manipulation tasks including selective doping, defect introduction, strain engineering, and surface modifications. Benchmarking against traditional computational methods shows that CrystalEdit achieves comparable structural accuracy while offering unprecedented flexibility and accessibility for non-expert users.
-\end{abstract}
-
-\section{Objectives}
-The primary goal for this month was to implement and validate the core structural manipulation modules of CrystalEdit, focusing on the \ce{Sb2Te3} system. Specifically, we aimed to:
-\begin{enumerate}
-    \item Establish a robust pipeline for generating fundamental defects (Point defects, Surfaces, Planar faults).
-    \item Implement complex, hierarchical defect structures such as twin boundaries and grain boundaries.
-    \item Develop a visualization and benchmarking suite to verify the physical realism of the generated structures.
-\end{enumerate}
-
-\section{Methods and Implementation}
-
-We developed a Python-based framework (`src/`) integrated with ASE and Pymatgen to perform deterministic structural transformations.
-
-\subsection{Stage 1: Point Defects and Local Modifications}
-We implemented modules to handle 0D defects, which serve as the foundation for chemical doping studies.
+Key capabilities enabled by CrystalEdit:
 \begin{itemize}
-    \item \textbf{Interstitials:} Algorithms to identify and populate octahedral and tetrahedral voids in the van der Waals gap and quintuple layers.
-    \item \textbf{Substitutions/Antisites:} Logic to perform cation exchange (e.g., Cr on Sb sites) and intrinsic antisite defects (Sb on Te).
-    \item \textbf{Validation:} Automated checks for steric clashes and charge neutrality.
+    \item \textbf{Bridge the "Data Gap":} Generate high-quality, non-equilibrium synthetic data for MLFF training without the prohibitive cost of long AIMD runs.
+    \item \textbf{Automate Complex Workflows:} Reduce weeks of manual structure building (e.g., grain boundaries, twin defects) into natural language commands.
+    \item \textbf{Enable Active Learning:} Directly link with our XAI findings to "edit" structures in directions that maximize the model's scientific information gain.
 \end{itemize}
 
-\subsection{Stage 2: Surface and Planar Defects}
-We extended the framework to 2D defects, critical for topological insulator applications.
+\section{Strategic Alignment with Current Research}
+This project is the logical evolution of our previous work:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lp{10cm}@{}}
+\toprule
+\textbf{Previous Work} & \textbf{Connection to CrystalEdit} \\
+\midrule
+\textbf{NeurIPS (AI4Mat)} & We identified that MLFFs need diverse, non-equilibrium states. CrystalEdit provides the "surgical" precision to create these states (strains, defects) systematically. \\
+\textbf{XAI (AAAI 2026)} & Our XAI framework tells us \textit{what} the model is learning; CrystalEdit allows us to \textit{test} those insights by specifically modifying the features the model relies on. \\
+\textbf{High-Throughput Screening} & By automating the "Crystal Editing" process, we can move from screening known databases to screening "evolved" materials with nuanced modifications. \\
+\bottomrule
+\end{tabular}
+\caption{Strategic alignment of CrystalEdit with ongoing research goals.}
+\label{tab:alignment}
+\end{table}
+
+\section{Implementation Progress}
+
+\subsection{Stage 1: 0D Point Defects (The Building Blocks)}
+We have automated the insertion of interstitials and substitutions in the \ce{Sb2Te3} system.
 \begin{itemize}
-    \item \textbf{Surface Slabs:} Generation of vacuum-padded slabs with controlled terminations (Te-terminated vs Sb-terminated) to study surface states.
-    \item \textbf{Stacking Faults:} Induction of planar faults via Shockley partial dislocation shifts vectors to model metastable phases.
+    \item \textbf{Innovation:} The agent identifies octahedral/tetrahedral voids in the van der Waals gap automatically, ensuring steric and charge consistency.
+    \item \textbf{Value:} Enables rapid "doping-on-the-fly" for digital twin experiments.
 \end{itemize}
 
-\subsection{Stage 3: Complex Boundaries (Twins & GBs)}
-We tackled high-order defects involving lattice reorientation.
+\subsection{Stage 2: 2D Surface & Planar Engineering}
+Critical for our work in topological insulators and 2D electronics.
 \begin{itemize}
-    \item \textbf{Twin Boundaries:} Construction of coherent $\Sigma 3$ twin boundaries and $\Sigma 7$ symmetric tilt grain boundaries using coincidence site lattice (CSL) theory.
-    \item \textbf{Hierarchical Twins:} Advanced logic to insert secondary twin domains (e.g., \{332\} within \{233\}) to model complex microstructure evolution in BCC Ti systems.
+    \item \textbf{Slab Generation:} Controlled termination (Te vs. Sb) is now a single-command process (Figure \ref{fig:defects}A, B).
+    \item \textbf{Stacking Faults:} We can now model metastable phases by inducing Shockley partial dislocations, enriching our MLFF training sets with transition-state-like configurations (Figure \ref{fig:defects}C).
 \end{itemize}
-
-\section{Results}
-
-The pipeline successfully generated a comprehensive library of defect structures, validated by geometric benchmarks.
-
-\subsection{Defect Generation Pipeline}
-Figure \ref{fig:pipeline} illustrates the overall workflow, transforming pristine bulk crystals into complex defected structures ready for DFT simulation.
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.9\linewidth]{figures/Fig1_Pipeline.pdf}
-    \caption{CrystalEdit Pipeline Schematic. (A) Pristine Bulk \ce{Sb2Te3}. (B) Introduction of Substitutional Defects (Cr on Sb). (C) Distortion mapping highlighting local strain fields induced by the defect.}
-    \label{fig:pipeline}
-\end{figure}
-
-\subsection{Surface and Planar Defects}
-We successfully engineered diverse planar defects. Figure \ref{fig:defects} displays the generated structures. The surface slabs (A, B) exhibit distinct termination chemistries. The stacking fault (C) introduces a local symmetry break in the layering sequence.
 
 \begin{figure}[ht]
     \centering
@@ -196,8 +180,12 @@ We successfully engineered diverse planar defects. Figure \ref{fig:defects} disp
     \label{fig:defects}
 \end{figure}
 
-\subsection{Hierarchical Twinning in BCC Ti}
-A major achievement this month was the construction of a hierarchical twin structure in BCC Titanium. We successfully modeled a primary \{233\} twin containing a secondary \{332\} twin domain. Figure \ref{fig:twin_render} visualizes this complex microstructure, rendered using POV-Ray to highlight the atomic layering and domain boundaries.
+\subsection{Stage 3: Complex 3D Microstructures (The "Expert" Level)}
+We have implemented Coincidence Site Lattice (CSL) theory for high-order defects.
+\begin{itemize}
+    \item \textbf{Twin Boundaries:} Automated construction of coherent $\Sigma 3$ and $\Sigma 7$ boundaries.
+    \item \textbf{Hierarchical Logic:} The ability to nest defects (e.g., secondary \{332\} twins in BCC Ti) allows us to simulate the complex microstructures found in real-world industrial alloys (Figure \ref{fig:twin_render}).
+\end{itemize}
 
 \begin{figure}[ht]
     \centering
@@ -206,8 +194,13 @@ A major achievement this month was the construction of a hierarchical twin struc
     \label{fig:twin_render}
 \end{figure}
 
-\section{Benchmarking}
-We benchmarked the structural fidelity of our generated defects against relaxed ground-truth structures. Figure \ref{fig:benchmark} summarizes the performance, showing high physical validity scores ($>0.9$) for most defect types, indicating that our "edit" operations maintain chemically plausible bond lengths and coordination environments.
+\section{Impact: Beyond Structure Building}
+By benchmarking how well an LLM can perform these tasks, we are building a "Scientist-in-the-Loop" agent. This framework will allow us to:
+\begin{enumerate}
+    \item \textbf{Lower the Barrier:} Non-experts can generate Nature-quality simulation cells via natural language.
+    \item \textbf{Ensure Physical Fidelity:} Every edit is passed through a "Physics Guardrail" (ASE/Pymatgen validation) before being accepted (Figure \ref{fig:benchmark}).
+    \item \textbf{Synthesize Better Data:} Instead of "noisy" random perturbations, we generate "physics-guided" perturbations that represent real experimental conditions.
+\end{enumerate}
 
 \begin{figure}[ht]
     \centering
@@ -216,14 +209,7 @@ We benchmarked the structural fidelity of our generated defects against relaxed 
     \label{fig:benchmark}
 \end{figure}
 
-\section{Conclusion and Future Work}
-This month's work has established CrystalEdit as a capable tool for deterministic crystal engineering. We have moved from simple point defects to complex, hierarchical microstructures.
-
-\textbf{Future Directions:}
-\begin{itemize}
-    \item \textbf{LLM Integration:} The next phase involves coupling these Python modules with an LLM agent to enable fully natural-language-driven editing.
-    \item \textbf{High-Throughput DFT:} Validation of the energetic stability of the "Hierarchical Twin" structures using VASP/Quantum ESPRESSO.
-    \item \textbf{Active Learning:} Implementing the VAE-based targeted sampling to explore rare defect configurations.
-\end{itemize}
+\section{Conclusion}
+This month's work has established CrystalEdit as a capable tool for deterministic crystal engineering, moving from simple point defects to complex, hierarchical microstructures. This "Active Intelligence" component is poised to significantly accelerate our ability to explore and optimize material properties.
 
 \end{document}
